@@ -1,0 +1,80 @@
+nav {
+  box-shadow: 5px 15px 20px -5px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: antiquewhite;
+  color: darksalmon;
+  display: flex;
+  height: 40px;
+  padding: 10px;
+  justify-content: space-between;
+  border: solid black;
+  font-family: monospace;
+}
+img {
+  width: 130px;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0 0 20px -1px whitesmoke;
+  margin: 1px 0 10px 10px;
+  float: right;
+  height: 150px;
+  border: black solid 1px;
+}
+main {
+  padding: 100px 24px 100px;
+  box-shadow: 20px 0px 12px -2px;
+  color: darkslategray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+  background-color: aliceblue;
+  border: black solid;
+  max-width: 960px;
+  margin: auto;
+}
+body {
+  background-color:ivory;
+  min-height: 100vh;
+  padding: 0;
+  max-width: 960px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.quote {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline brown;
+}
+#portfolio-header {
+  font-weight: 100;
+  font-size: 3em;
+  font-family: monospace;
+  border-bottom: 1px solid white;
+}
+#portfolio-container {
+  display: block;
+}
+.Project-content{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  color: indigo;
+  font-size: .9em;
+  border: yellow solid;
+  padding: 5px 5px 5px  5px;
+  background-color: antiquewhite;
+}
+#Interest-list{
+  list-style: lower-roman;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
+#Motivate{
+  font-size: 3em;
+  text-align: center;
+}
