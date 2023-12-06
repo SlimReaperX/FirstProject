@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  box-shadow: 5px 15px 20px -5px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgb(8, 8, 8);
+  color: darksalmon;
+  display: flex;
+  height: 60px;
+  padding: 10px;
+  justify-content: space-between;
+  border: solid rgb(247, 244, 244);
+  font-family: monospace;
+}
+img {
+  width: 130px;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0 0 20px -1px rgb(5, 5, 5);
+  margin: 1px 0 10px 10px;
+  float: right;
+  height: 150px;
+  border: rgb(246, 244, 244) solid 1px;
+}
+main {
+  padding: 100px 24px 600px;
+  box-shadow: 20px 0px 12px -2px;
+  color: rgb(249, 242, 242);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+  background-color: rgb(8, 8, 8);
+  border: rgb(246, 245, 245) solid;
+  /* max-width: 960px; */
+  display: grid;
+}
+body {
+  background-color: rgb(35, 35, 32);
+  min-height: 960px;
+  padding: 0;
+  max-width: 960px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.quote {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline brown;
+}
+#portfolio-header {
+  font-weight: 100;
+  font-size: 3em;
+  font-family: monospace;
+  border-bottom: 1px solid white;
+}
+#portfolio-container {
+  display: block;
+}
+.Project-content {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  color: indigo;
+  font-size: 0.9em;
+  border: yellow solid;
+  padding: 5px 5px 5px 5px;
+  background-color: antiquewhite;
+}
+#Interest-list {
+  list-style: lower-roman;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
+#Motivate {
+  font-size: 4em;
+  text-align: center;
+}
+#form {
+  background-color: black;
+  border: solid whitesmoke;
+  margin: auto;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 90%;
+}
+button{
+background-color: black;
+color: yellow;
+}
